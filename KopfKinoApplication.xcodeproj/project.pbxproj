@@ -3,16 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4733F17B25D02A950027DA71 /* VideoChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4733F17A25D02A950027DA71 /* VideoChecker.swift */; };
+		474D5A8B25D9615100B60A75 /* DK Cinnabar Brush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 474D5A8A25D9615100B60A75 /* DK Cinnabar Brush.ttf */; };
+		4756092A25D569A500AD9108 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4756092925D569A500AD9108 /* Alamofire */; };
 		475FD5AD25CF229B008E6DA3 /* KopfKinoApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FD5AC25CF229B008E6DA3 /* KopfKinoApplicationApp.swift */; };
 		475FD5AF25CF229B008E6DA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FD5AE25CF229B008E6DA3 /* ContentView.swift */; };
 		475FD5B125CF229B008E6DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475FD5B025CF229B008E6DA3 /* Assets.xcassets */; };
 		475FD5B425CF229B008E6DA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475FD5B325CF229B008E6DA3 /* Preview Assets.xcassets */; };
 		475FD5BF25CF229C008E6DA3 /* KopfKinoApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FD5BE25CF229C008E6DA3 /* KopfKinoApplicationTests.swift */; };
 		475FD5CA25CF229C008E6DA3 /* KopfKinoApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FD5C925CF229C008E6DA3 /* KopfKinoApplicationUITests.swift */; };
+		475FD5DB25CF234E008E6DA3 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FD5DA25CF234E008E6DA3 /* WelcomePage.swift */; };
+		475FD5E025CF2387008E6DA3 /* StylePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FD5DF25CF2387008E6DA3 /* StylePage.swift */; };
+		475FD5E825CF23A2008E6DA3 /* TextPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FD5E725CF23A2008E6DA3 /* TextPage.swift */; };
+		475FD5ED25CF23D4008E6DA3 /* LoadingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FD5EC25CF23D4008E6DA3 /* LoadingPage.swift */; };
+		475FD5F225CF23E3008E6DA3 /* VideoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FD5F125CF23E3008E6DA3 /* VideoPage.swift */; };
+		475FD5FF25CF2414008E6DA3 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FD5FE25CF2414008E6DA3 /* UserSettings.swift */; };
+		475FD60425CF258A008E6DA3 /* TryOutFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FD60325CF258A008E6DA3 /* TryOutFile.swift */; };
+		475FD61E25D00F7F008E6DA3 /* PostRe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475FD61D25D00F7F008E6DA3 /* PostRe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4733F17625D012680027DA71 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4733F17A25D02A950027DA71 /* VideoChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChecker.swift; sourceTree = "<group>"; };
+		474D5A8A25D9615100B60A75 /* DK Cinnabar Brush.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DK Cinnabar Brush.ttf"; path = "../../../../Coding/KopfKino/dk_cinnabar_brush/DK Cinnabar Brush.ttf"; sourceTree = "<group>"; };
 		475FD5A925CF229B008E6DA3 /* KopfKinoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KopfKinoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475FD5AC25CF229B008E6DA3 /* KopfKinoApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KopfKinoApplicationApp.swift; sourceTree = "<group>"; };
 		475FD5AE25CF229B008E6DA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +59,14 @@
 		475FD5C525CF229C008E6DA3 /* KopfKinoApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KopfKinoApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		475FD5C925CF229C008E6DA3 /* KopfKinoApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KopfKinoApplicationUITests.swift; sourceTree = "<group>"; };
 		475FD5CB25CF229C008E6DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475FD5DA25CF234E008E6DA3 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		475FD5DF25CF2387008E6DA3 /* StylePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylePage.swift; sourceTree = SOURCE_ROOT; };
+		475FD5E725CF23A2008E6DA3 /* TextPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPage.swift; sourceTree = SOURCE_ROOT; };
+		475FD5EC25CF23D4008E6DA3 /* LoadingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPage.swift; sourceTree = "<group>"; };
+		475FD5F125CF23E3008E6DA3 /* VideoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPage.swift; sourceTree = "<group>"; };
+		475FD5FE25CF2414008E6DA3 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		475FD60325CF258A008E6DA3 /* TryOutFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryOutFile.swift; sourceTree = "<group>"; };
+		475FD61D25D00F7F008E6DA3 /* PostRe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4756092A25D569A500AD9108 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +98,8 @@
 		475FD5A025CF229B008E6DA3 = {
 			isa = PBXGroup;
 			children = (
+				4733F17625D012680027DA71 /* MyPlayground.playground */,
+				475FD61D25D00F7F008E6DA3 /* PostRe.swift */,
 				475FD5AB25CF229B008E6DA3 /* KopfKinoApplication */,
 				475FD5BD25CF229C008E6DA3 /* KopfKinoApplicationTests */,
 				475FD5C825CF229C008E6DA3 /* KopfKinoApplicationUITests */,
@@ -96,8 +121,18 @@
 			isa = PBXGroup;
 			children = (
 				475FD5AC25CF229B008E6DA3 /* KopfKinoApplicationApp.swift */,
+				475FD5F125CF23E3008E6DA3 /* VideoPage.swift */,
+				475FD5EC25CF23D4008E6DA3 /* LoadingPage.swift */,
+				4733F17A25D02A950027DA71 /* VideoChecker.swift */,
+				475FD5E725CF23A2008E6DA3 /* TextPage.swift */,
+				475FD5DF25CF2387008E6DA3 /* StylePage.swift */,
+				475FD5DA25CF234E008E6DA3 /* WelcomePage.swift */,
 				475FD5AE25CF229B008E6DA3 /* ContentView.swift */,
+				475FD5FE25CF2414008E6DA3 /* UserSettings.swift */,
+				475FD61125CF2650008E6DA3 /* Datas */,
 				475FD5B025CF229B008E6DA3 /* Assets.xcassets */,
+				474D5A8A25D9615100B60A75 /* DK Cinnabar Brush.ttf */,
+				475FD61025CF2643008E6DA3 /* Views */,
 				475FD5B525CF229B008E6DA3 /* Info.plist */,
 				475FD5B225CF229B008E6DA3 /* Preview Content */,
 			);
@@ -130,6 +165,21 @@
 			path = KopfKinoApplicationUITests;
 			sourceTree = "<group>";
 		};
+		475FD61025CF2643008E6DA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		475FD61125CF2650008E6DA3 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				475FD60325CF258A008E6DA3 /* TryOutFile.swift */,
+			);
+			path = Datas;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +196,9 @@
 			dependencies = (
 			);
 			name = KopfKinoApplication;
+			packageProductDependencies = (
+				4756092925D569A500AD9108 /* Alamofire */,
+			);
 			productName = KopfKinoApplication;
 			productReference = 475FD5A925CF229B008E6DA3 /* KopfKinoApplication.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +270,9 @@
 				Base,
 			);
 			mainGroup = 475FD5A025CF229B008E6DA3;
+			packageReferences = (
+				4756092825D569A500AD9108 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 475FD5AA25CF229B008E6DA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +291,7 @@
 			files = (
 				475FD5B425CF229B008E6DA3 /* Preview Assets.xcassets in Resources */,
 				475FD5B125CF229B008E6DA3 /* Assets.xcassets in Resources */,
+				474D5A8B25D9615100B60A75 /* DK Cinnabar Brush.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +316,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475FD5E025CF2387008E6DA3 /* StylePage.swift in Sources */,
+				475FD5E825CF23A2008E6DA3 /* TextPage.swift in Sources */,
+				475FD5DB25CF234E008E6DA3 /* WelcomePage.swift in Sources */,
+				475FD61E25D00F7F008E6DA3 /* PostRe.swift in Sources */,
+				475FD5FF25CF2414008E6DA3 /* UserSettings.swift in Sources */,
+				4733F17B25D02A950027DA71 /* VideoChecker.swift in Sources */,
+				475FD5ED25CF23D4008E6DA3 /* LoadingPage.swift in Sources */,
+				475FD60425CF258A008E6DA3 /* TryOutFile.swift in Sources */,
 				475FD5AF25CF229B008E6DA3 /* ContentView.swift in Sources */,
 				475FD5AD25CF229B008E6DA3 /* KopfKinoApplicationApp.swift in Sources */,
+				475FD5F225CF23E3008E6DA3 /* VideoPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +646,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4756092825D569A500AD9108 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4756092925D569A500AD9108 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4756092825D569A500AD9108 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 475FD5A125CF229B008E6DA3 /* Project object */;
 }

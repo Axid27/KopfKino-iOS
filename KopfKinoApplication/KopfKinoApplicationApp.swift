@@ -9,7 +9,12 @@ import SwiftUI
 
 @main
 struct KopfKinoApplicationApp: App {
+    
+    
     var body: some Scene {
+        
+    
+        
         WindowGroup {
             ContentView()
         }
