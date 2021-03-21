@@ -75,7 +75,7 @@ struct VideoPage: View {
                     //NAV LINK
                     NavigationLink(
 
-                        destination: StylePage(user: userData), isActive: $homeButton) { EmptyView() }
+                        destination: ContentView(user: userData), isActive: $homeButton) { EmptyView() }
                     
                     
                     Button(action: {
@@ -121,8 +121,8 @@ struct player: UIViewControllerRepresentable {
         
         
         let controller = AVPlayerViewController()
-     let url = "https://kopfkino-app.herokuapp.com/dl/test.mp4"
-       // let url = "\(UserData.link)"
+//     let url = "https://kopfkino-app.herokuapp.com/dl/test.mp4"
+        let url = "\(UserData.link)"
         print(UserData.link)
         let player1 = AVPlayer(url: URL(string: url)!)
         controller.player = player1

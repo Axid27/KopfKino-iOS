@@ -19,7 +19,7 @@ struct TextPage: View {
     var body: some View {
         
         //MARK: Body
-//        NavigationView{
+
         
         ZStack {
             
@@ -29,7 +29,7 @@ struct TextPage: View {
             
             VStack (alignment: .center, spacing: 30) {
                 
-                // UserInput
+        // UserInput
                 
                 TextEditor(text: $user.UserInput)
                     .lineSpacing(10.0)
@@ -39,27 +39,27 @@ struct TextPage: View {
                     .frame(width: 300, height: 250, alignment: .center)
                     .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 8, x: 5, y: 3)
                     .border(Color("GreyBlue"),width: 2)
-                    .offset(x: 0, y: 0)
                     .padding(.vertical, 0)
                
-                // String Conter
-
+        // String Counter
                 let strcount = user.UserInput
-                Text("\(strcount.count)")
+                Text("\(strcount.count)/250")
+                    .foregroundColor(.white)
                 
-                    Text(stringCount)
+        // String when Input was left empty
+                Text(stringCount)
+                    .foregroundColor(.white)
                     
-
-                //NAV LINK
+        //NAV LINK
                 NavigationLink(
 
                     destination: LoadingPage(user: user), isActive: $checkData) { EmptyView() }
                     
-                // BUTTON Create
+        // BUTTON Create
                 
                 Button(action: {
                     user.UserInput = strcount
-    //                    Calling InputSaver --> Seeting State var WATCH to true
+        //   Calling InputManager -->
                     if user.UserInput == ""{
                         self.user.UserInput = "Check your story"
                     }
@@ -98,7 +98,7 @@ struct TextPage: View {
             .frame(minWidth: 0, idealWidth: 0, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealHeight: 0, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center)
         } // zSTACK END
         .ignoresSafeArea(.all)
-//        }// End NAV VIew
+
     }
 }
 

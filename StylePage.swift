@@ -17,7 +17,7 @@ struct StylePage: View {
     var body: some View {
        
         //MARK: Body
-        NavigationView{
+       
         
         ZStack {
             
@@ -26,6 +26,12 @@ struct StylePage: View {
                 .scaledToFit()
             
             VStack {
+//
+//                let styleList = ["sad", "happy", "neutral"]
+//
+//                for i in styleList {
+//                    Text("\(styleList[i])")
+//                }
                 
                 var buttonText = user.UserStyle
                 Button(action: {
@@ -73,8 +79,7 @@ struct StylePage: View {
             } // VSTACK
             .frame(minWidth: 0, idealWidth: 0, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealHeight: 0, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center)
         }.edgesIgnoringSafeArea(.all)
-        
-        } // MARK: NAV View end
+
         .navigationTitle("")
         .navigationBarHidden(true)
         
@@ -83,6 +88,12 @@ struct StylePage: View {
 
 struct StylePage_Previews: PreviewProvider {
     static var previews: some View {
-        StylePage(user: UserData())
+        Group {
+            StylePage(user: UserData())
+                .preferredColorScheme(.light)
+                
+            StylePage(user: UserData())
+            StylePage(user: UserData())
+        }
     }
 }

@@ -30,7 +30,12 @@ struct ContentView: View {
         .ignoresSafeArea()
         .navigationTitle("")
         .navigationBarHidden(true)
+        
         } //:NAvView
+        .navigationTitle("")
+        .navigationBarHidden(true)
+
+
         
         
         

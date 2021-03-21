@@ -94,7 +94,7 @@ extension UserData{
                 }
             }
         }
-    } // MARK: FUNC CHeckurl End
+    } // MARK: CheckUrl End
     
     func requestAuthorization(completion: @escaping ()->Void) {
             if PHPhotoLibrary.authorizationStatus() == .notDetermined {

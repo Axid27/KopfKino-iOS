@@ -23,6 +23,10 @@ struct WelcomePage: View {
                 .scaledToFit()
                 .animation(Animation.easeOut(duration: 0.6).delay(0.1))
             
+//            LottieView(fileName: "CloudWarping")
+//               .frame(width: 250, height: 250, alignment: .center)
+//                .offset(x: -50, y: 150)
+            
             VStack{
                 Text("KopfKino® will visualize your story or idea just by words. Only follow these 2 simple steps...")
 //                    .font(.custom("DK Cinnabar Brush", size: 18))
